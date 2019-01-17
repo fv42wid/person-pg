@@ -1,19 +1,19 @@
 databaseChangeLog:
   - changeSet:
-    id: 1
-    author: fvinci
-    changes:
-      - createTable:
-          tableName: person
-          columns:
-            - column:
-                name: id
-                type: bigint
-                autoIncrement: true
-                constraints:
-                  primaryKey: true
-                  nullable: false
-            - column:
-                name: name
-                type: varchar(255)
+      id: 1
+      author: fvinci
+      changes:
+        - createTable:
+            tableName: person
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(255)
             
